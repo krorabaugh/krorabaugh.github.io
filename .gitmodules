@@ -1,0 +1,3 @@
+[submodule "krorabaugh.binary"]
+	path = krorabaugh.binary
+	url = https://github.com/krorabaugh/krorabaugh.binary
