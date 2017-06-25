@@ -25,6 +25,16 @@ function MM_findObj(n, d) { //v4.01
   for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
   if(!x && d.getElementById) x=d.getElementById(n); return x;
 }
+//-->
+</script>
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-97710776-1', 'auto');
+  ga('send', 'pageview');
 function MM_preloadImages() { //v3.0
   var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
     var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
@@ -33,27 +43,15 @@ function MM_preloadImages() { //v3.0
 function MM_swapImgRestore() { //v3.0
   var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
 }
-
 function MM_swapImage() { //v3.0
   var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
    if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
 }
-//-->
-</script>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-97710776-1', 'auto');
-  ga('send', 'pageview');
-
 </script>
 <link href="website2017.css" rel="stylesheet" type="text/css" />
 </head>
 
-<body class="twoColLiqLtHdr" onload="MM_preloadImages('instagram_red_16.png','facebook_red_16.png','linkedin_red_16.png','index_chop.gif','index_narberth.gif','index_lds.gif','index_futuresystems.gif','index_lighting.gif','index_cohousing.gif','index_velodrome.gif','index_digitalfabrication.gif','index_catalonia.gif','index_sketches.gif','index_photography.gif','index_francisville.gif')">
+<body class="twoColLiqLtHdr" onload="MM_preloadImages('instagram_red_16.png','facebook_red_16.png','linkedin_red_16.png','index_chop.gif','index_narberth.gif','index_lds.gif','index_futuresystems.gif','index_lighting.gif','index_cohousing.gif','index_velodrome.gif','index_digitalfabrication.gif','index_catalonia.gif','index_sketches.gif','index_photography.gif','index_francisville.gif','youtube_red_16.png')">
 
 <div id="container"> 
   <div id="header">
@@ -115,9 +113,9 @@ function MM_swapImage() { //v3.0
     </p>
     <h3><a href="resume.html">resume</a></h3>
     <h3><a href="contact.html">contact</a></h3>
-    <h3><a href="wordpress/index.php">blog</a></h3>
+    <h3>blog</h3>
     <p>&nbsp;</p>
-    <p class="contactimage"><a href="https://www.facebook.com/krorabaugh" target="_blank" onmouseover="MM_swapImage('facebook','','facebook_red_16.png',1)" onmouseout="MM_swapImgRestore()"><img src="facebook_16.png" alt="image" name="facebook" width="16" height="16" border="0" class="iconfacebook" id="facebook" /></a><a href="https://www.instagram.com/krorabaugh/" target="_blank" onmouseover="MM_swapImage('instagram','','instagram_red_16.png',1)" onmouseout="MM_swapImgRestore()"><img src="instagram_16.png" alt="image" name="instagram" width="16" height="16" border="0" class="iconinstagram" id="instagram" /></a><a href="https://www.linkedin.com/in/krorabaugh" target="_blank" onmouseover="MM_swapImage('linkedin','','linkedin_red_16.png',1)" onmouseout="MM_swapImgRestore()"><img src="linkedin_16.png" alt="image" name="linkedin" width="16" height="16" border="0" class="iconinstagram" id="linkedin" /></a></p>
+    <p class="contactimage"><a href="https://www.facebook.com/krorabaugh" target="_blank" onmouseover="MM_swapImage('facebook','','facebook_red_16.png',1)" onmouseout="MM_swapImgRestore()"><img src="facebook_16.png" alt="image" name="facebook" width="16" height="16" border="0" class="iconfacebook" id="facebook" /></a><a href="https://www.instagram.com/krorabaugh/" target="_blank" onmouseover="MM_swapImage('instagram','','instagram_red_16.png',1)" onmouseout="MM_swapImgRestore()"><img src="instagram_16.png" alt="image" name="instagram" width="16" height="16" border="0" class="iconinstagram" id="instagram" /></a><a href="https://www.linkedin.com/in/krorabaugh" target="_blank" onmouseover="MM_swapImage('linkedin','','linkedin_red_16.png',1)" onmouseout="MM_swapImgRestore()"><img src="linkedin_16.png" alt="image" name="linkedin" width="16" height="16" border="0" class="iconinstagram" id="linkedin" /></a><a href="https://www.youtube.com/channel/UC6sv0G4iY2zvl5lZ6eEZv4Q" target="_blank" onmouseover="MM_swapImage('youtube','','youtube_red_16.png',1)" onmouseout="MM_swapImgRestore()"><img src="youtube_16.png" alt="image" name="youtube" width="16" height="11" border="0" class="iconinstagram" id="youtube" /></a></p>
   <!-- end #sidebar1 --></div>
   <div id="mainContent">
     <h1><a href="chop.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('chop','','index_chop.gif',1)"><img src="index_chopbw.gif" alt="chop" name="chop" width="400" height="300" border="0" class="portfolioindeximage" id="chop" /></a><a href="narberth.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('narberth','','index_narberth.gif',1)"><img src="index_narberthbw.gif" alt="narberth" name="narberth" width="400" height="300" border="0" class="portfolioindeximage" id="narberth" /></a><a href="lds.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('lds','','index_lds.gif',1)"><img src="index_ldsbw.gif" alt="lds" name="lds" width="400" height="300" border="0" class="portfolioindeximage" id="lds" /></a><a href="futuresystems.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('futuresystems','','index_futuresystems.gif',1)"><img src="index_futuresystemsbw.gif" alt="futuresystems" name="futuresystems" width="400" height="300" border="0" class="portfolioindeximage" id="futuresystems" /></a><a href="lighting.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('lighting','','index_lighting.gif',1)"><img src="index_lightingbw.gif" alt="lighting" name="lighting" width="400" height="300" border="0" class="portfolioindeximage" id="lighting" /></a><a href="francisville.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('francisville','','index_francisville.gif',1)"><img src="index_francisvillebw.gif" alt="francisville" name="francisville" width="400" height="300" border="0" class="portfolioindeximage" id="francisville" /></a><a href="catalonia.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('catalonia','','index_catalonia.gif',1)"><img src="index_cataloniabw.gif" alt="catalonia" name="catalonia" width="400" height="300" border="0" class="portfolioindeximage" id="catalonia" /></a><a href="cohousing.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('cohousing','','index_cohousing.gif',1)"><img src="index_cohousingbw.gif" alt="cohousing" name="cohousing" width="400" height="300" border="0" class="portfolioindeximage" id="cohousing" /></a><a href="velodrome.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('velodrome','','index_velodrome.gif',1)"><img src="index_velodromebw.gif" alt="velodrome" name="velodrome" width="400" height="300" border="0" class="portfolioindeximage" id="velodrome" /></a><a href="digitalfabrication.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('digitalfabrication','','index_digitalfabrication.gif',1)"><img src="index_digitalfabricationbw.gif" alt="digitalfabrication" name="digitalfabrication" width="400" height="300" border="0" class="portfolioindeximage" id="digitalfabrication" /></a><a href="personalsketchbook.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('personalsketchbook','','index_sketches.gif',1)"><img src="index_sketchesbw.gif" alt="personalsketchbook" name="personalsketchbook" width="400" height="300" border="0" class="portfolioindeximage" id="personalsketchbook" /></a><a href="photography.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('photography','','index_photography.gif',1)"><img src="index_photographybw.gif" alt="photography" name="photography" width="400" height="300" border="0" class="portfolioindeximage" id="photography" /></a>
